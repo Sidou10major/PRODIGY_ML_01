@@ -245,6 +245,8 @@ submission.to_csv(submission_path, index=False)
 
 print("Predictions saved to:", submission_path)
 
+
+"""Using all features of the training set"""
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
